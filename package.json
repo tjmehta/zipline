@@ -5,6 +5,7 @@
   "description": "da illest filesharing platform",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/.bin/browserify ./lib/client.js -d > ./public/bundle.js && node index.js",
     "test": "mocha"
   },
   "repository": {
@@ -16,6 +17,7 @@
     "url": "https://github.com/tjmehta/zipline/issues"
   },
   "dependencies": {
-    "express": "~3.4.4"
+    "express": "~3.4.4",
+    "browserify": "~2.35.1"
   }
 }
