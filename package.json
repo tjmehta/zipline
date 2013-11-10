@@ -5,8 +5,7 @@
   "description": "da illest filesharing platform",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/browserify ./lib/client.js -d > ./public/bundle.js",
-    "start": "npm build && node index.js",
+    "start": "make && node index.js",
     "test": "mocha"
   },
   "repository": {
