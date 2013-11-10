@@ -20,6 +20,8 @@
     "express": "~3.4.4",
     "browserify": "~2.35.1",
     "hbs": "~2.4.0",
-    "short-id": "0.1.0-1"
+    "short-id": "0.1.0-1",
+    "socket.io": "~0.9.16",
+    "socket.io-client": "~0.9.16"
   }
 }
