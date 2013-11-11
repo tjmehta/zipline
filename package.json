@@ -23,5 +23,9 @@
     "short-id": "0.1.0-1",
     "socket.io": "~0.9.16",
     "socket.io-client": "~0.9.16"
+  },
+  "subdomain": "zipline",
+  "engines": {
+    "node": "0.10.x"
   }
 }
