@@ -22,7 +22,7 @@
     "hbs": "~4.0.1",
     "short-id": "0.1.0",
     "socket.io": "~1.7.2",
-    "socket.io-client": "~1.7.2"
+    "socket.io-client": "~2.2.0"
   },
   "subdomain": "zipline",
   "engines": {
